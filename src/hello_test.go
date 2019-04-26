@@ -1,12 +1,9 @@
 package main
 
-import (
-	"testing"
-	"gogo"
-)
+import "testing"
 
 func TestHello(t *testing.T) {
-    if gogo.Hello() != "Hello, world!" {
+    if Hello() != "Hello, world!" {
 	t.Errorf("failed")
     }
 }
