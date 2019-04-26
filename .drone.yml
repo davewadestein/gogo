@@ -2,8 +2,6 @@ pipeline:
   build:
     image: golang
     commands:
-      - cd src/gogo
-      - go build
-      - cd ../hello
+      - cd src/
       - go build
       - go test
